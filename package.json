@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js"
   },
@@ -16,7 +15,8 @@
     "koa": "^2.13.1",
     "koa-body": "^4.2.0",
     "koa-static": "^5.0.0",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "ws": "^8.2.3"
   },
   "engines": {
     "node": "10.x"
